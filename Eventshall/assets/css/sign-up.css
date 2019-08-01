@@ -1,0 +1,119 @@
+body{background-color: lightgray;}
+	    form{
+	      background:#006666;
+	      padding:30px; 
+	      -webkit-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+	       -moz-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+	       -box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+	       color: white;
+	    }
+	     .WithIcon input[type=text]{
+	    	padding-left: 40px;
+	    }
+	    .WithIcon{
+	    	position: relative;
+	    }
+	     .WithIcon i{
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	bottom: 5px;
+	    	padding: 5px 4px;
+	    	color:black;
+	    	font-size: 25px;
+	    }
+	    .WithIcon input[type=text]:focus + i{
+	    	color:dodgerBlue;
+
+	    }
+
+	     .WithIconMobile input[type=number]{
+	    	padding-left: 40px;
+	    }
+	     .WithIconMobile{
+	    	position: relative;
+	    }
+	     .WithIconMobile i{
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	bottom: 5px;
+	    	padding: 5px 4px;
+	    	color:black;
+	    	font-size: 25px;
+	    }
+	    .WithIconMobile input[type=number]:focus + i{
+	    	color:dodgerBlue;
+
+	    }
+
+	     .WithIconEmail input[type=email]{
+	    	padding-left: 40px;
+	    }
+	     .WithIconEmail{
+	    	position: relative;
+	    }
+	     .WithIconEmail i{
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	bottom: 5px;
+	    	padding: 5px 4px;
+	    	color:black;
+	    	font-size: 25px;
+	    }
+	    .WithIconEmail input[type=email]:focus + i{
+	    	color:dodgerBlue;
+
+	    }
+
+	     .WithIconPassword input[type=password]{
+	    	padding-left: 40px;
+	    }
+	     .WithIconPassword{
+	    	position: relative;
+	    }
+	     .WithIconPassword i{
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	bottom: 5px;
+	    	padding: 5px 4px;
+	    	color:black;
+	    	font-size: 25px;
+	    }
+	    .WithIconPassword input[type=password]:focus + i{
+	    	color:dodgerBlue;
+
+	    }
+	     .WithIconCpassword input[type=password]{
+	    	padding-left: 40px;
+	    }
+	     .WithIconPassword{
+	    	position: relative;
+	    }
+	     .WithIconCpassword i{
+	    	position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	bottom: 5px;
+	    	padding: 5px 4px;
+	    	color:#fff;
+	    	font-size: 25px;
+	    }
+	    .WithIconCpassword input[type=password]:focus + i{
+	    	color:dodgerBlue;
+
+	    }
+      .valid{
+        border: solid green;
+      }
+      .error{
+        color:#4d0026;
+      }
+
+  .alert{
+	display: none;
+}
+
+

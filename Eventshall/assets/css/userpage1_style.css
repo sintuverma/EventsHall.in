@@ -1,0 +1,58 @@
+ .modal-body{
+      background:#006666;
+        padding:10px; 
+         color: white;
+    }
+    .top_heading{
+      color:white;
+    }
+    .heading_second{
+      color: #330000;
+
+    }
+    #center_heading{
+      text-align: center; 
+      background-color::white; 
+      color: #1B7C7E;
+    }
+    #event_form_heading{
+      font-size: 20px;
+       background: #1B7C7E; 
+       color: white;
+    }
+    #guest_image{
+      width:100%;
+       height: 200px;
+    }
+    .btn{
+      border-radius: 30px;
+    }
+    #modal_top_heading{
+      text-align: center;
+       color:#1B7C7E;
+    }
+    #catering_heading{
+      font-size:25px; 
+      text-align: center; 
+      background: #1B7C7E;
+       color: white; 
+       height:45px;
+    }
+    #photo_top_heading{
+      text-align:center;
+       background: #1B7C7E; 
+       color: white;
+        height:45px;
+    }
+    .valid{
+        border: solid green;
+      }
+      .error{
+      	
+        color:#4d0026;
+      }
+      
+
+  .alert{
+  display: none;
+}

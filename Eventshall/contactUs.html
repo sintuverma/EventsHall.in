@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us| if You have any problem. Then Contact Us.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  
+  <style type="text/css">
+    body{background-color:;}
+    form{
+      background:#006666;
+      padding:10px; 
+     
+       color: white;
+    }
+    .valid{
+        border: solid green;
+      }
+      .error{
+        color:#4d0026;
+      }
+
+  .alert{
+  display: none;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- heading section using navbar -->
+
+  <div class="navbar navbar-inverse navbar-fixed navbar-custom">
+      <div class="container">
+          <div class="navbar-header" <a href="#" class="pull-left">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <a class="pull-left" href="#"><img  src="assets/images/logo.png" alt="Brand"width="100px" height="50px"></a>
+              <a class="navbar-brand" href="#">Events Hall</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li ><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                       <li><a href="searchpage.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+                           <li><a href="login.html"><span class="glyphicon glyphicon-user"></span>SignIn</a></li>
+                                <li><a href="signUp.html"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+                                     <li><a href="aboutUs.html"><span class="glyphicon glyphicon-book"></span>AboutUs</a></li>
+                                         <li class="active"><a href="contactUs.html"><span class="glyphicon glyphicon-earphone"></span> ContactUs</a></li>
+                   
+              </ul>
+              
+          </div>
+      </div>
+  </div><br>
+
+  <!-- close of heading section-->
+
+
+  <!---- contact us page start ------>
+
+
+
+<div class="container">
+  <div class="col-lg-12"style="background: #1B7C7E; color: white">
+          <hr>
+          <h2 class="intro-text text-center" ><strong>Contact Form</strong>
+          </h2>
+          <hr>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+<!-------- start our information tag ------->
+          <div class="col-md-8">
+            
+            <p><strong>Phon No.</strong><span class="glyphicon glyphicon-earphone"></span>    :
+              <strong>8090587674 , 8299819953 , 8960491286</strong>
+            </p>
+             <p><strong>Email</strong> <span class="glyphicon glyphicon-envelope"></span>     :
+               <strong><a href="mailto:name@example.com"><b>eventshall007@gmail.com</b></a></strong>
+             </p>
+             <p><strong>Address</strong> <span class="glyphicon glyphicon-home"></span>:
+               <strong>228 E.W.S. gunjan vihar
+                <br>Barra kanpur pincode-208027</strong>
+             </p>
+<!----------- close our information tag ----->
+
+<!------ start google map link ----->
+             <br><br><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14292.76340863821!2d80.29649622118923!3d26.417316995862087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDI1JzAyLjMiTiA4MMKwMTgnMTguOSJF!5e0!3m2!1sen!2sin!4v1528703658212" width="50%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+          </div>
+<!----- close google map link ----->
+<br><br>
+          <div class="col-md-4"><br>
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-leble="Close">x</button>
+              <div id="result"></div>
+            
+              </div>
+             <form id="contactUs" name="ContactUs" action=" "  method="post">
+            <h4><strong><center><p>HELLO,</p>          <p>WE ARE ALWAYS READY TO SERVE YOU!</p></center></strong></h4>
+            <!---strat name input tag ----->
+            <br><div class="form-group">
+             <input type="text" id="text1" class="form-control" placeholder="Name" name="username">
+              </div>
+<!--------close name input tag -----> 
+
+<!-------- start email input tag ------->
+
+              <div class="form-group">
+                
+                <input type="email" name="email" class="form-control" placeholder="Email">
+              </div>
+<!---------close email input tag ------->
+
+<!---------- strat mobile no. tag ------->
+              <div class="form-group ">
+                
+                <input type="number" class="form-control" placeholder="Mobile No." name="mobile_number">
+              </div>
+<!---------- close mobile no. tag ------>
+
+<!---------- start message tag -------->
+              <div class="form-group">
+                
+                <textarea class="form-control" rows="3" placeholder="Message,Suggestion" name="comment1"></textarea>
+              </div>
+<!---------- close message tag ----->
+
+<!----- start submit btn tag ------->
+              <div class="form-group">
+              
+                <button type="submit" id="register" class="btn btn-success btn-block">Submit</button>
+          </div>
+<!-------- close submit btn tag ----->
+          </form>
+
+        </div>
+</div>
+</div>
+
+<!---- contact us page close ------->
+<br>
+<br>
+
+<footer class="container-fluid text-center">
+  <p>&copy;Copy right www.EventsHall.com 2018-2019</p>
+</footer>
+<script type="text/javascript" src="assets/js/contactus_page_validation.js"></script>
+
+</body>
+</html>

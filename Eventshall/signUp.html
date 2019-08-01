@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regitration Form</title>
+	<meta charset="utf-8">
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.js"></script>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+	  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+	  <link rel="stylesheet" type="text/css" href="assets/css/sign-up.css">
+    <script type="text/javascript" src="assets/js/sign_up_validation.js"></script>
+
+</head>
+<body>
+	
+ <div class="navbar navbar-inverse navbar-fixed navbar-custom">
+      <div class="container">
+          <div class="navbar-header" <a href="#" class="pull-left">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <a class="pull-left" href="#"><img  src="assets/images/logo.png" alt="Brand" width="100px" height="50px"></a>
+              <a class="navbar-brand" href="#">Events Hall</a>
+          </div>
+
+         <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="searchpage.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-user"></span>SignIn</a></li>
+                <li class="active"><a  href="signUp.html"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+                <li ><a href="aboutUs.html"><span class="glyphicon glyphicon-book"></span>AboutUs</a></li>
+                <li><a href="contactUs.html"><span class="glyphicon glyphicon-earphone"></span> ContactUs</a></li>
+                   
+              </ul>
+              
+          </div>
+      </div>
+  </div>
+  <br>
+  
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+              <div class="alert alert-danger alert-dismissible" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-leble="Close">x</button>
+              <div id="result"></div>
+            
+              </div>
+          
+          </div>
+  	<div class="col-sm-offset-3 col-sm-6">
+  		<div class="tab-content">
+
+  			<form id="signUp" name="signup_form" action=""  method="post">
+         <h2 class="text-center">Registration Here</h2>
+      <!-- Start User Name Input Tag  -->
+      <div class="form-group" id="username">
+           <label for="username">Enter Your Name:</label>
+           <div class="WithIcon">
+           <input type="text" class="form-control" id="username" placeholder="Enter Your Name" name="username" class="alphaonly">
+           <i class="fa fa-user fa-lg-fw" aria-hidden="true"></i>
+           </div>
+      </div>
+      <!-- End User Name Input Tag  -->
+
+      <!-- Start Mobile Number Input Tag -->
+      <div class="form-group">
+           <label for="mobile_number">Mobile No:</label>
+           <div class="WithIconMobile">
+           <input type="number" class="form-control" id="mobile_number" maxlength="10"  placeholder="Mobile or Contact" name="mobile_number" maxlength="10">
+            <i class="fa fa-phone " aria-hidden="true"></i>
+          </div>
+      </div>
+      <!-- End Mobile Number Input Tag -->
+
+      <!-- Start Email Input Tag -->
+      <div class="form-group">
+           <label for="email">Email Id:</label>
+           <div class="WithIconEmail">
+           <input type="email"  class="form-control" id="email" placeholder="Email Id" name="email" >
+           <i class="fa fa-envelope " aria-hidden="true"></i>
+         </div>
+      </div>
+      <!-- End Email Input Tag -->
+
+       <!-- Start Password Input Tag -->
+      <div class="form-group">
+           <label for="password">Password:</label>
+           <div class="WithIconPassword">
+           <input type="password" class="form-control" id="password" placeholder="Enter your Password" name="password" >
+           <i class="fa fa-lock " aria-hidden="true"></i>
+           </div>
+     </div>
+     <!-- End Password Input Tag -->
+
+     <!-- Start Confirm Password Input Tag -->
+     <div class="form-group">
+     	
+           <label for="confirm_password"> Confirm Password:</label>
+           <div class="WithIconPassword">
+           <input type="password" class="form-control" id="confirm_password" placeholder="Re-type Password" name="confirm_password" >
+            <i class="fa fa-lock " aria-hidden="true"></i>
+          </div>
+     </div>
+     <!-- End Confirm Password Input Tag -->
+
+     <!-- Start Check Box Input Tag -->
+     <div class="form-group">
+      <div class="checkbox" >
+           <label><input type="checkbox" name="check1" ><a href="termsandcondition.html" style="color: white; text-decoration: none"><p>I accept all Terms & Condition.</p></a> </label>
+     </div>
+     </div>
+     <!-- End Check Box Input Tag -->
+
+     <!-- Submit Btton Tag-->
+     <div class="form-group">
+           <button type="submit" class="btn btn-success btn-block" id="register">Submit</button>
+           </div>
+     </form>
+
+  		</div>
+  	</div>
+  	
+ 
+
+  </div><br><br>
+  <footer class="container-fluid text-center">
+  <p>&copy;Copy right www.EventsHall.com 2018-2019</p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position:relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:15px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 15px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  height: ;
+  width: ;
+  background-color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color:black;
+  padding: 2px 16px;
+  color: #1B7C7E;
+  font-family:Times New Roman;
+
+}
+.row{
+  padding-left: 15px;
+  padding-right: 14px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#gallaryarea{
+  padding-left: 15px;
+  padding-right: 14px;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#top_heading{
+  text-align: center;
+   color:black; 
+   font-family: Times New Roman;
+    font-weight: bolder;
+}
+#mid_heading{
+  margin-right: 102px;
+   margin-left:105px; 
+    position:center;
+     color: #1B7C7E;
+      text-align: center;
+       font-family: Times New Roman;
+       background-color: black;
+        font-size:5vw;
+}
+
+
+.table{width:100%; background-color: white;  }
+th, td{ padding:15px;height: 50px; text-align: left;}
+th{font-color:black;}
+td{font-size: 20px; font-family: Times New Roman; color:#0a121e;}
+.table_data{text-transform: uppercase;}
+tr:hover{background-color:lightgray}
+ #url_link{
+  text-decoration: none;
+   color: white;
+    background-color: black;
+ }
+
+.blink{
+    font-size: 40px;
+    color: rgb(0, 137, 226);
+    
+    animation: blink 2s infinite;
+   }
+   
+  @keyframes .blink {
+    from {
+        color:green;
+    }
+    to {
+        color:white;
+    }
+}
+   
+   @keyframes blink{
+    0%{opacity: 1;}
+    75%{opacity: 1;}
+    76%{ opacity: 0;}
+    100%{opacity: 0;}
+   }
+
+
+.alert{
+  display: none;
+}

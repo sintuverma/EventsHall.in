@@ -1,0 +1,23 @@
+#top_heading{
+  color: white;
+   background:#1B7C7E; 
+   text-align: center;
+}
+#heading2{
+  text-align: justify;
+}
+#heading3{
+  color: white; 
+  background:#1B7C7E;
+}
+#mid_heading{
+   color: white; 
+   background:#1B7C7E;
+   text-align: center;
+}
+#project_title{
+  color: #00091a;
+}
+#paragraph{
+  text-align: justify;
+}

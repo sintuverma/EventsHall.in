@@ -1,0 +1,23 @@
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #1B7C7E;
+    border-color: #1B7C7E;
+    border-radius: 25px,50px,25px,20px;
+
+}
+#heading_top{
+  text-align: center; 
+  color: #1B7C7E;
+}
+#UserName{
+  height:px; 
+  border-radius: 0px;
+   margin-right: 5px;
+}
+.btn{
+  height: 50px ; 
+  color: black ;
+}

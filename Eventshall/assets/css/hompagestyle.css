@@ -1,0 +1,83 @@
+.blink{
+	font-family: Times New Roman;
+	text-align: center; 
+	color:black; 
+	text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"
+
+}
+
+.container#paragraphstyle{
+	background-color: black;
+}
+
+#relatedinformation{
+	font-family: Times New Roman;
+}
+#content{
+	color: white;
+	font-family: Verdana;
+}
+#serviceheading{
+	text-align: center;
+	 color: #1B7C7E;
+
+}
+
+
+
+}
+#column_area{
+	width:100%;
+}
+
+#section_heading{
+	text-align: center;
+	background-color:#1B7C7E;
+	 color:white;
+	 font-size: 29px
+}
+#column_para1{
+	color:white; 
+	font-family: Times New Roman;
+    text-align; 
+    padding: 10px;
+
+}
+#column_para2{
+	color:white;
+	 font-family:Times New Roman;
+	  padding: 10px;
+}
+#signup_link{
+	color: white;
+}
+.btn{
+	border-radius: 40px;
+
+}
+#search_link{
+	text-decoration: none; 
+	color: white 
+}
+
+
+
+.blink{
+    
+    animation: blink 2s infinite;
+   }
+   
+  @keyframes .blink {
+    from {
+        color:green;
+    }
+    to {
+        color:white;
+    }
+}
+ @keyframes blink{
+    0%{opacity: 1;}
+    75%{opacity: 1;}
+    76%{ opacity: 0;}
+    100%{opacity: 0;}
+   }

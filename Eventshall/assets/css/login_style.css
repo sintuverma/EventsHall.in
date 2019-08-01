@@ -1,0 +1,23 @@
+form{
+      background:#006666;
+      padding:40px; 
+      -webkit-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -moz-box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       -box-shadow:9px 15px 39px 9px rgba(0,0,0,0.75);
+       color: white;
+    }
+    #heading{
+      text-align: center;
+      color: white ;
+
+    }
+    #click_link{
+      color:white;
+    }
+    .alert{
+  display: none;
+    }
+
+    .error{
+        color:#4d0026;
+      }
